@@ -3,6 +3,8 @@ import React from 'react';
 import '../../../public/style/navbar/navbarStyle.css';
 import { NavResponsive } from './NavResponsive';
 
+import logo from '../../../src/assets/img/logoBlanco-removebg-preview.png';
+
 export const Navbar = () => {
   return (
     
@@ -10,7 +12,7 @@ export const Navbar = () => {
 
         <nav className='nav-1'>
 
-            <img src="../../../src/assets/img/logoBlanco-removebg-preview.png" alt="" />
+            <img src={logo} alt="" />
 
             <div className='navegacion'>
                 <a href="">Inicio</a>
