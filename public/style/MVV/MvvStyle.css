@@ -37,7 +37,7 @@
      /* article */
 
 .article-2{
-    height: 200vh;
+    height: 170vh;
     background: linear-gradient(rgba(30, 34, 72, 0.683), rgba(30, 34, 72, 0.527)),url('../../../src/assets/img/carrusel2.jpg');
     display: flex;
     flex-direction: column;
@@ -52,8 +52,8 @@
 .article-2 div{
     background-color: var(--main-color);
     padding: 25px;
-    width: 70%;
-    height: 20%;
+    width: 85%;
+    height: 25%;
     text-align: justify;
     color: white;
     box-shadow: 10px 10px 5px black;
