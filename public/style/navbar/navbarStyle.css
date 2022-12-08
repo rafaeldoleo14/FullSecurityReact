@@ -8,11 +8,17 @@
 }
 
 
-/* Header */
+
+
+/* Extra small devices (phones, 500px and down) */
+@media only screen and (max-width: 500px) {
+
+     /* Header */
 
 header{
     height: 100vh;
     background: url('../../../src/assets/img/carrusel1.jpg');
+    background-position: 90%;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -20,13 +26,15 @@ header{
 /* nav responsive de bootstrap */
 
 .nav-responsive{
-    display: none;
+    display: flex;
+    font-family: var(--main-fontFamily);
 }
+
 
 /* Nav */
 
 nav{
-    display: flex;
+    display: none;
     justify-content: space-between;
     align-items: center;
     padding: 0 50px 0 50px;
@@ -91,14 +99,14 @@ nav img{
     gap: 40px;
     width: 70%;
     position: relative;
-    top: 50px;
+    top: 70px;
     left: 70px;
 }
 
 .eslogan h1{
     color: white;
     font-family: var(--main-fontFamily);
-    font-size: 5em;
+    font-size: 3em;
     font-weight: 700;
 }
 
@@ -106,21 +114,21 @@ nav img{
     background-color: var(--main-color);
     outline: none;
     border: none;
-    padding: 15px 20px 15px 20px;
+    padding: 10px 15px 10px 15px;
     text-transform: uppercase;
     color: white;
-    letter-spacing: 1.2px;
+    letter-spacing: 1px;
     border-radius: 3.5px;
     font-weight: 700;
     font-family: var(--main-fontFamily);
+    font-size: 1em;
+}
+
+
 }
 
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-}
-
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 600px) {
 
     /* Header */
 
