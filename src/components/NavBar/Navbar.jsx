@@ -18,7 +18,7 @@ export const Navbar = () => {
 
             <div className='navegacion'>
                 <a href="">Inicio</a>
-                <a href="">Sobre Nosotros</a>
+                <a href="#about">Sobre Nosotros</a>
                 <a href="">Servicios</a>
                 <a href="">Contacto</a>
             </div>

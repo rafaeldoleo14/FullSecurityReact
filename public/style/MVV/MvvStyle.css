@@ -4,6 +4,9 @@
     --main-fontFamily: DejaVu Sans Mono, monospace;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
 
 /* article */
 

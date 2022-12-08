@@ -19,19 +19,19 @@ export const NavResponsive = () => {
         <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
 
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="#">Inicio</a>
+            <a class="nav-link" aria-current="page" href="#inicio">Inicio</a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="#">Sobre Nosotros</a>
+            <a class="nav-link" href="#about">Sobre Nosotros</a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="#">Servicios</a>
+            <a class="nav-link" href="/servicios">Servicios</a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="#">Contacto</a>
+            <a class="nav-link" href="/contacto">Contacto</a>
           </li>
 
         </ul>

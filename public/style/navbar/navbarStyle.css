@@ -2,6 +2,10 @@
     font-family: FreeMono, monospace;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 :root{
     --main-color: rgb(30 34 72);
     --main-fontFamily: DejaVu Sans Mono, monospace;

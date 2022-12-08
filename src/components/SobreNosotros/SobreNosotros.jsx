@@ -11,7 +11,7 @@ export const SobreNosotros = () => {
 
     <>
     
-        <main>
+        <main id='about'>
 
             <LazyLoadImage src={indexImage}
             effect='blur'/>
