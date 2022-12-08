@@ -1,6 +1,10 @@
 
 import React from 'react';
 import '../../../public/style/sobreNosotros/sobreNosotrosStyle.css';
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import 'react-lazy-load-image-component/src/effects/blur.css';
+
+import indexImage from '../../../src/assets/img/seguridad1.png';
 
 export const SobreNosotros = () => {
   return (
@@ -9,7 +13,8 @@ export const SobreNosotros = () => {
     
         <main>
 
-            <img src="../../../src/assets/img/seguridad1.png" alt="" />
+            <LazyLoadImage src={indexImage}
+            effect='blur'/>
 
             <article>
 
