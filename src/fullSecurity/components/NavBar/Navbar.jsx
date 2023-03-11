@@ -26,7 +26,7 @@ export const Navbar = () => {
                   <a href="/">Inicio</a>
                   <a href="#about">Sobre Nosotros</a>
                   <a href="/services">Servicios</a>
-                  <a href="">Contacto</a>
+                  <a href="/contact">Contacto</a>
               </div>
 
               <i 
@@ -36,10 +36,10 @@ export const Navbar = () => {
               ></i>
 
               <div className={`nav-responsive ${(isNavOpen ? 'active' : '')}`}>
-                  <a href="">Inicio</a>
+                  <a href="/">Inicio</a>
                   <a href="#about">Sobre Nosotros</a>
                   <a href="/services">Servicios</a>
-                  <a href="">Contacto</a>
+                  <a href="/contact">Contacto</a>
               </div>
 
           </nav>
