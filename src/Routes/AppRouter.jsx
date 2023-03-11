@@ -8,16 +8,15 @@ export const AppRouter = () => {
   return (
     <>
     
-        <Routes>
+    <Routes>
 
-            <Route path='/' element={<MainPage/>}/>
+      <Route path="/" element={<MainPage />} />
 
-            <Route path='/services' element={<ServicePage/>}/>
+      <Route path="/services" element={<ServicePage />} />
 
-
-            <Route path='/*' element={<Navigate to='/'/>}/>
-
-        </Routes>
+      <Route path="*" element={<Navigate to="/" />} />
+      
+    </Routes>
     
     </>
   )
