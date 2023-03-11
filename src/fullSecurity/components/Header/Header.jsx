@@ -1,13 +1,17 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import '../../../../public/style/header/headerStyle.css';
 
 export const Header = () => {
 
   const [loading, setLoading] = useState(true);
 
-  const handleImageLoad = () => {
-    setLoading(false);
-  };
+  useEffect(() => {
+    const image = new Image();
+    image.onload = () => setLoading(false);
+    image.src = "../../../src/assets/img/carrusel1.jpg";
+  }, []);
+
+  console.log(loading)
 
   return (
     <>
@@ -18,11 +22,6 @@ export const Header = () => {
           <button>Más info</button>
         </div>
       </header>
-      <img
-        src="../../../src/assets/img/carrusel1.jpg"
-        onLoad={handleImageLoad}
-        style={{ display: "none" }}
-      />
     </>
   )
 }
