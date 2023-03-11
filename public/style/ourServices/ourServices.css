@@ -1,0 +1,228 @@
+
+.service-container{
+    background: url('../../../src/assets/img/servicios.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.service-title{
+    height: 70vh;
+    padding-left: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.service-title h1{
+    font-weight: 700;
+    font-size: 4em;
+    width: 90%;
+}
+
+.types-services{
+    background: url('../../../src/assets/img/servicios.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 100px;
+    padding-bottom: 50px;
+}
+
+.types-services .all-info{
+    display: flex;
+    width: 48em;
+    height: 300px;
+    background-color: white;
+}
+
+.types-services img{
+    border: 1px solid white;
+    width: 300px;
+}
+
+.types-services div .service-info{
+    font-family: sans-serif;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.service-info h3{
+    text-align: center;
+}
+
+.service-info p{
+    width: 80%;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.733);;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.all-info .service-info .s-line{
+    background-color: rgba(128, 128, 128, 0.689);
+    width: 70%;
+    height: 1px;
+}
+
+@media (max-width: 1000px){
+
+    .service-container{
+        background: url('../../../src/assets/img/servicios.jpg');
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: 50%;
+    }
+
+    .types-services{
+        background: url('../../../src/assets/img/servicios.jpg');
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        gap: 100px;
+        padding-bottom: 50px;
+    }
+
+}
+
+@media (max-width: 863px){
+
+    .service-container{
+        background: url('../../../src/assets/img/servicios.jpg');
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: 50%;
+    }
+
+    .types-services{
+        background: url('../../../src/assets/img/servicios.jpg');
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        gap: 100px;
+        padding-bottom: 50px;
+    }
+
+    .service-title{
+        height: 55vh;
+        padding-left: 60px;
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .service-title h1{
+        font-weight: 700;
+        font-size: 3em;
+        width: 100%;
+    }
+
+    .types-services .all-info{
+        width: 40em;
+        height: 300px;
+    }
+
+}
+
+@media (max-width: 720px){
+
+    .service-container{
+        background: url('../../../src/assets/img/servicios.jpg');
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: 70%;
+    }
+
+    .types-services{
+        background: url('../../../src/assets/img/servicios.jpg');
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: 70%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        gap: 100px;
+        padding-bottom: 50px;
+    }
+
+    .service-title h1{
+        font-weight: 700;
+        font-size: 3em;
+        width: 100%;
+    }
+
+    .types-services .all-info{
+        width: 35em;
+        height: 300px;
+    }
+
+}
+
+@media (max-width: 680px){
+
+    .service-container{
+        background: url('../../../src/assets/img/servicios.jpg');
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: 70%;
+    }
+
+    .types-services{
+        background: url('../../../src/assets/img/servicios.jpg');
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: 70%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        gap: 100px;
+        padding-bottom: 50px;
+    }
+
+    .service-title h1{
+        font-weight: 700;
+        font-size: 2em;
+        width: 100%;
+    }
+
+    .types-services .all-info{
+        flex-direction: column;
+        width: 85%;
+        height: auto;
+        border-radius: 5px;
+    }
+
+    .types-services img{
+        border: 1px solid white;
+        width: 100%;
+        border-radius: 5px;
+    }
+
+    .types-services div .service-info{
+        font-family: sans-serif;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+
+}

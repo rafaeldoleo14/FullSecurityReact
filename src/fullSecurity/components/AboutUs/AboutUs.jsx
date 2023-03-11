@@ -1,22 +1,29 @@
 
-import React from 'react';
-import '../../../public/style/sobreNosotros/sobreNosotrosStyle.css';
-import { LazyLoadImage} from "react-lazy-load-image-component";
+import React, { useEffect } from 'react';
+import '../../../../public/style/aboutUs/aboutUsStyle.css';
 import 'react-lazy-load-image-component/src/effects/blur.css';
+import indexImage from '../../../../src/assets/img/seguridad1.png';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
-import indexImage from '../../../src/assets/img/seguridad1.png';
+export const AboutUs = () => {
 
-export const SobreNosotros = () => {
+  useEffect(()=>{
+    Aos.init({duration: 2000});
+  },[])
+
   return (
 
     <>
     
         <main id='about'>
 
-            <LazyLoadImage src={indexImage}
-            effect='blur'/>
+            <img  src={indexImage}
+            effect='blur' data-aos="flip-left"
+            data-aos-easing="ease-out-cubic" data-aos-duration="2000"/>
 
-            <article>
+            <article data-aos="fade-up"
+              >
 
                 <p>Servicio de Seguridad Privada</p>
 
