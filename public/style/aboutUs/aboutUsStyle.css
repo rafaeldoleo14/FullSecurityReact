@@ -1,0 +1,352 @@
+:root{
+    --main-color: rgb(30 34 72);
+    --main-fontFamily: DejaVu Sans Mono, monospace;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+
+/* Main */
+
+main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+/* main img */
+
+main img{
+    width: 38em;
+    border-radius: 5px;
+}
+
+/* main article */
+
+main article{
+    width: 30%;
+    font-family: var(--main-fontFamily);
+
+}
+
+/* main article primer hijo parrafo */
+
+main article p:nth-child(1){
+    font-weight: 700;
+    font-size: 1.2em;
+}
+
+/* main article h1 */
+
+main article h1{
+    color: red;
+    
+    font-size: 3em;
+}
+
+/* main article segundo hijo con parrafo con la clase info */
+
+main article .info{
+    color: rgba(128, 128, 128, 0.817);
+    line-height: 2.5em;
+    font-family: sans-serif;
+    text-align: justify;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    /* Main */
+
+main{
+    height: 120vh;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+/* main img */
+
+main span{
+    text-align: center;
+}
+
+main img{
+    width: 80%;
+    border-radius: 5px;
+}
+
+/* main article */
+
+main article{
+    width: 80%;
+    font-family: var(--main-fontFamily);
+
+}
+
+/* main article primer hijo parrafo */
+
+main article p:nth-child(1){
+    font-weight: 700;
+    font-size: 1em;
+}
+
+/* main article h1 */
+
+main article h1{
+    color: red;
+    font-size: 1.8em;
+}
+
+/* main article segundo hijo con parrafo con la clase info */
+
+main article .info{
+    color: rgba(128, 128, 128, 0.817);
+    line-height: 2em;
+    font-family: sans-serif;
+    text-align: justify;
+}
+
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+    /* Main */
+
+main{
+    height: 120vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+/* main img */
+
+main span{
+    text-align: center;
+}
+
+main img{
+    width: 70%;
+    border-radius: 5px;
+}
+
+/* main article */
+
+main article{
+    width: 80%;
+    font-family: var(--main-fontFamily);
+
+}
+
+/* main article primer hijo parrafo */
+
+main article p:nth-child(1){
+    font-weight: 700;
+    font-size: 1em;
+}
+
+/* main article h1 */
+
+main article h1{
+    color: red;
+    font-size: 2em;
+}
+
+/* main article segundo hijo con parrafo con la clase info */
+
+main article .info{
+    color: rgba(128, 128, 128, 0.817);
+    line-height: 2em;
+    font-family: sans-serif;
+    text-align: justify;
+}
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+    /* Main */
+
+main{
+    height: 140vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+/* main img */
+
+main span{
+    text-align: center;
+}
+
+main img{
+    width: 80%;
+    border-radius: 5px;
+}
+
+/* main article */
+
+main article{
+    width: 80%;
+    font-family: var(--main-fontFamily);
+
+}
+
+/* main article primer hijo parrafo */
+
+main article p:nth-child(1){
+    font-weight: 700;
+    font-size: 1em;
+}
+
+/* main article h1 */
+
+main article h1{
+    color: red;
+    font-size: 2em;
+}
+
+/* main article segundo hijo con parrafo con la clase info */
+
+main article .info{
+    color: rgba(128, 128, 128, 0.817);
+    line-height: 2em;
+    font-family: sans-serif;
+    text-align: justify;
+}
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+    /* Main */
+
+main{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+/* main img */
+
+main span{
+    text-align: center;
+}
+
+main img{
+    width: 30em;
+    border-radius: 5px;
+}
+
+/* main article */
+
+main article{
+    width: 40%;
+    font-family: var(--main-fontFamily);
+
+}
+
+/* main article primer hijo parrafo */
+
+main article p:nth-child(1){
+    font-weight: 700;
+    font-size: 1.2em;
+}
+
+/* main article h1 */
+
+main article h1{
+    color: red;
+    
+    font-size: 3em;
+}
+
+/* main article segundo hijo con parrafo con la clase info */
+
+main article .info{
+    color: rgba(128, 128, 128, 0.817);
+    line-height: 2.5em;
+    font-family: sans-serif;
+    text-align: justify;
+}
+
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+     /* Main */
+
+main{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+/* main img */
+
+main span{
+    text-align: center;
+}
+
+main img{
+    width: 38em;
+    border-radius: 5px;
+}
+
+/* main article */
+
+main article{
+    width: 30%;
+    font-family: var(--main-fontFamily);
+
+}
+
+/* main article primer hijo parrafo */
+
+main article p:nth-child(1){
+    font-weight: 700;
+    font-size: 1.2em;
+}
+
+/* main article h1 */
+
+main article h1{
+    color: red;
+    
+    font-size: 3em;
+}
+
+/* main article segundo hijo con parrafo con la clase info */
+
+main article .info{
+    color: rgba(128, 128, 128, 0.817);
+    line-height: 2.5em;
+    font-family: sans-serif;
+    text-align: justify;
+}
+
+
+}
