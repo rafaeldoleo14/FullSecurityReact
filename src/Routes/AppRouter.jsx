@@ -14,7 +14,7 @@ export const AppRouter = () => {
 
       <Route path="/services" element={<ServicePage />} />
 
-      <Route path="*" element={<Navigate to="/" />} />
+      <Route path="/*" element={<Navigate to="/" />} />
       
     </Routes>
     
