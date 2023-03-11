@@ -3,9 +3,13 @@ import Aos from 'aos';
 import React, { useEffect } from 'react'
 import '../../../../public/style/ourServices/ourServices.css';
 import { serviceData } from '../../data/serviceData';
+import { useLoading } from '../../hooks/useLoading';
+import { Loading } from '../Loading/Loading';
 import { ServiceCard } from './ServiceCard';
 
 export const OurServices = () => {
+
+  const {loading} = useLoading();
 
     useEffect(()=>{
         Aos.init({duration: 2000});
@@ -13,6 +17,8 @@ export const OurServices = () => {
 
   return (
     <>
+
+        <Loading loading={loading}/>
     
         <div className='service-container'>
 
