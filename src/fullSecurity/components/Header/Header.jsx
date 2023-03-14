@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import '../../../../public/style/header/headerStyle.css';
+import './headerStyle.css';
 import { useLoading } from '../../hooks/useLoading';
 import { Loading } from '../Loading/Loading';
 

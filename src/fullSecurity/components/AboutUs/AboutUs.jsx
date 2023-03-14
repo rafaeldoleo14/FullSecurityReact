@@ -1,6 +1,6 @@
 
 import React, { useEffect } from 'react';
-import '../../../../public/style/aboutUs/aboutUsStyle.css';
+import './aboutUsStyle.css';
 import 'react-lazy-load-image-component/src/effects/blur.css';
 import indexImage from '../../../../src/assets/img/seguridad1.png';
 import Aos from 'aos';

@@ -1,6 +1,6 @@
 
 import React, {  useEffect, useState } from 'react';
-import '../../../../public/style/navbar/navbarStyle.css';
+import './navbarStyle.css';
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import 'react-lazy-load-image-component/src/effects/blur.css';
 import logo from '../../../../src/assets/img/logoBlanco-removebg-preview.png';

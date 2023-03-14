@@ -1,7 +1,7 @@
 
 import Aos from 'aos';
 import React, { useEffect } from 'react'
-import '../../../../public/style/ourServices/ourServices.css';
+import './ourServices.css';
 import { serviceData } from '../../data/serviceData';
 import { useLoading } from '../../hooks/useLoading';
 import { Loading } from '../Loading/Loading';

@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Audio } from 'react-loader-spinner';
-import '../../../../public/style/Loading/loadingStyle.css';
+import './loadingStyle.css';
 
 export const Loading = ({loading}) => {
   return (

@@ -1,7 +1,7 @@
 
 import Aos from 'aos';
 import React, { useEffect } from 'react';
-import '../../../../public/style/MVV/MvvStyle.css';
+import './MvvStyle.css';
 
 export const MVV = () => {
 
