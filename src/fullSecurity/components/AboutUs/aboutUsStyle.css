@@ -76,3 +76,11 @@ main div p:nth-child(3){
     }
 
 }
+
+@media (max-width: 500px){
+
+    main{
+        height: 100vh;
+    }
+
+}
