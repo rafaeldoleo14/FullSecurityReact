@@ -80,7 +80,6 @@
     }
 
     .types-services{
-        background: url('../../../src/assets/img/servicios.jpg');
         background-size: cover;
         background-attachment: fixed;
         background-position: 50%;
@@ -97,14 +96,12 @@
 @media (max-width: 863px){
 
     .service-container{
-        background: url('../../../src/assets/img/servicios.jpg');
         background-size: cover;
         background-attachment: fixed;
         background-position: 50%;
     }
 
     .types-services{
-        background: url('../../../src/assets/img/servicios.jpg');
         background-size: cover;
         background-attachment: fixed;
         background-position: 50%;
@@ -140,14 +137,12 @@
 @media (max-width: 720px){
 
     .service-container{
-        background: url('../../../src/assets/img/servicios.jpg');
         background-size: cover;
         background-attachment: fixed;
         background-position: 70%;
     }
 
     .types-services{
-        background: url('../../../src/assets/img/servicios.jpg');
         background-size: cover;
         background-attachment: fixed;
         background-position: 70%;
@@ -175,14 +170,12 @@
 @media (max-width: 680px){
 
     .service-container{
-        background: url('../../../src/assets/img/servicios.jpg');
         background-size: cover;
         background-attachment: fixed;
         background-position: 70%;
     }
 
     .types-services{
-        background: url('../../../src/assets/img/servicios.jpg');
         background-size: cover;
         background-attachment: fixed;
         background-position: 70%;
