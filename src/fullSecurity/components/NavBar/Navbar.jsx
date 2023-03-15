@@ -47,7 +47,7 @@ export const Navbar = () => {
               <i 
                 className={`bi  ${isNavOpen ? 'bi-x' : 'bi-list'} open-btn`} 
                 onClick={hidden}
-                style={{position: `${isNavOpen ? 'fixed' : 'absolute'}`, 
+                style={{position: `${isNavOpen ? '' : 'absolute'}`, 
                         display: `${isNavOpen ? 'none' : ''}`}}
               ></i>
 
