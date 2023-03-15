@@ -1,6 +1,5 @@
 
-import Aos from 'aos';
-import React, { useEffect } from 'react'
+import React from 'react'
 import './ourServices.css';
 import { serviceData } from '../../data/serviceData';
 import { useLoading } from '../../hooks/useLoading';
@@ -10,10 +9,6 @@ import { ServiceCard } from './ServiceCard';
 export const OurServices = () => {
 
   const {loading} = useLoading();
-
-    useEffect(()=>{
-        Aos.init({duration: 2000});
-    },[])
 
   return (
     <>

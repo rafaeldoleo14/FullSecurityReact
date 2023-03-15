@@ -12,7 +12,7 @@ export const ServiceCard = ({id, img, title, details}) => {
   return (
     <>
     
-        <div key={id} className='all-info' data-aos="fade-right">
+        <div key={id} className='all-info'>
 
             <img className='' src={img} alt="" />
             <div className='service-info'>
