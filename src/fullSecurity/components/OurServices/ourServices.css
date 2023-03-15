@@ -73,7 +73,6 @@
 @media (max-width: 1000px){
 
     .service-container{
-        background: url('../../../src/assets/img/servicios.jpg');
         background-size: cover;
         background-attachment: fixed;
         background-position: 50%;
