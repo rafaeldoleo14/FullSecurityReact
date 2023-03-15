@@ -7,14 +7,14 @@
 
 .service-title{
     height: 70vh;
-    padding-left: 60px;
+    padding-left: 50px;
     display: flex;
     align-items: center;
 }
 
-.service-title h1{
+.service-title h2{
     font-weight: 700;
-    font-size: 4em;
+    font-size: 3.7em;
     width: 90%;
 }
 
@@ -124,7 +124,7 @@
         margin-bottom: 20px;
     }
 
-    .service-title h1{
+    .service-title h2{
         font-weight: 700;
         font-size: 3em;
         width: 100%;
@@ -159,7 +159,7 @@
         padding-bottom: 50px;
     }
 
-    .service-title h1{
+    .service-title h2{
         font-weight: 700;
         font-size: 3em;
         width: 100%;
@@ -194,7 +194,7 @@
         padding-bottom: 50px;
     }
 
-    .service-title h1{
+    .service-title h2{
         font-weight: 700;
         font-size: 2em;
         width: 100%;
@@ -223,6 +223,20 @@
         gap: 20px;
         padding-top: 20px;
         padding-bottom: 30px;
+    }
+
+}
+
+@media (max-width: 325px){
+
+    .service-title{
+        padding-left: 30px;
+    }
+
+    .service-title h2{
+        font-weight: 700;
+        font-size: 2em;
+        width: 100%;
     }
 
 }

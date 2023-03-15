@@ -1,9 +1,4 @@
 
-:root{
-    --main-color: rgb(30 34 72);
-    --main-fontFamily: DejaVu Sans Mono, monospace;
-}
-
 header{
     background: url('../../../src/assets/img/carrusel1.jpg');
     background-size: cover;
@@ -29,7 +24,7 @@ header{
 .eslogan button{
     outline: none;
     border: none;
-    background-color: var(--main-color);
+    background-color: black;
     color: white;
     padding: 10px 20px 10px 20px;
     border-radius: 5px;

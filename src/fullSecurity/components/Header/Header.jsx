@@ -11,7 +11,7 @@ export const Header = () => {
     <>
         <Loading loading={loading}/>
 
-        <header>
+        <header id='inicio'>
 
             <div className='eslogan animate__animated animate__bounceInLeft'>
 

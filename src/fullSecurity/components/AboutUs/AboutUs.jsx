@@ -22,7 +22,7 @@ export const AboutUs = () => {
             effect='blur' data-aos="flip-left"
             data-aos-easing="ease-out-cubic" data-aos-duration="2000"/>
 
-            <article data-aos="fade-up"
+            <div data-aos="fade-up"
               >
 
                 <p>Servicio de Seguridad Privada</p>
@@ -31,7 +31,7 @@ export const AboutUs = () => {
 
                 <p className='info'>Full security es una empresa dedicada a ofrecer productos y servicios de seguridad. Nuestra intención es generar tranquilidad a los clientes por medio de la calidad y eficiencia de los productos y servicios que ofrecemos. Véase a continuación toda la información relacionada con Full Security.</p>
 
-            </article>
+            </div>
 
         </main>
 

@@ -23,7 +23,7 @@ export const OurServices = () => {
         <div className='service-container'>
 
             <div className='service-title' data-aos="fade-right"d>
-                <h1 className='text-white'>PRINCIPALES SERVICIOS QUE OFRECEMOS</h1>
+                <h2 className='text-white'>PRINCIPALES SERVICIOS QUE OFRECEMOS</h2>
             </div>
 
             <div className='types-services'>

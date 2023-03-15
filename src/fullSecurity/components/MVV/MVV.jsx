@@ -12,7 +12,7 @@ export const MVV = () => {
   return (
     <>
     
-        <article className='article-2'>
+        <article className='article-mvv'>
 
             <div data-aos="zoom-in-up">
                 <h2>Misión</h2>
