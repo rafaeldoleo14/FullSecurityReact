@@ -96,3 +96,11 @@ header{
     }
 
 }
+
+@media (max-width: 500px){
+
+    header{
+        background-position: 600px;
+    }
+
+}

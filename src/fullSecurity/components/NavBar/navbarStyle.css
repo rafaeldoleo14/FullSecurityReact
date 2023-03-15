@@ -28,7 +28,7 @@ nav .nav-responsive{
     width: 250px;
     flex-direction: column;
     transition: all 0.30s ease;
-    z-index: 1000;
+    z-index: 20000;
 }
 
 nav .nav-responsive button{
