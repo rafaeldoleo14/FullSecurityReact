@@ -19,7 +19,7 @@
 }
 
 .types-services{
-    background: url('../../../src/assets/img/servicios.jpg');
+    background: url('../../../assets/img/servicios.jpg');
     background-size: cover;
     background-attachment: fixed;
     display: flex;
