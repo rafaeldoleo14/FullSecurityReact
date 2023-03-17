@@ -41,7 +41,11 @@ export const Navbar = () => {
                     Servicios
                   </a>
 
-                  <a href="/contact">Contacto</a>
+                  <a href="/contact" 
+                    className={`${pathname === '/contact' ? 'active' : ''}`}>
+                    Contacto
+                  </a>
+
               </div>
 
               <i 

@@ -1,18 +1,17 @@
 
 import React from 'react'
-import { Navbar } from '../../fullSecurity/components/NavBar/Navbar'
-import { Footer } from '../components/Footer/Footer'
 import { OurServices } from '../components/OurServices/OurServices'
+import { MainLayout } from '../layout/MainLayout'
 
 export const ServicePage = () => {
   return (
     <>
     
-      <Navbar/>
+      <MainLayout>
 
-      <OurServices/>
+        <OurServices/>
 
-      <Footer/>
+      </MainLayout>
     
     </>
   )
