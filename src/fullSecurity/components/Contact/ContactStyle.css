@@ -81,9 +81,15 @@
     transform: scale(1.1);
 }
 
+    @media (max-width: 1250px) {
+      .contactImage {
+      height: 55vh;
+      }
+    }
+
     @media (max-width: 1060px) {
         .contactImage {
-        height: 60vh;
+        height: 55vh;
         }
     }
 
@@ -93,9 +99,15 @@
     }
   }
 
-  @media (max-width: 625px) {
+  @media (max-width: 660px) {
     .contactImage {
       height: 35vh;
+    }
+  }
+
+  @media (max-width: 550px) {
+    .contactImage {
+      height: 30vh;
     }
   }
 
