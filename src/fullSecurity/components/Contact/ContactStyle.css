@@ -119,13 +119,13 @@
 
   @media (max-width: 395px) {
     .contactImage {
-      height: 20vh;
+      height: 18vh;
     }
   }
 
   @media (max-width: 290px) {
     .contactImage {
-      height: 15vh;
+      height: 13vh;
     }
   }
 
