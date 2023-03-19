@@ -117,7 +117,7 @@
     }
   }
 
-  @media (max-width: 360px) {
+  @media (max-width: 395px) {
     .contactImage {
       height: 20vh;
     }
